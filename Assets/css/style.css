@@ -1,0 +1,52 @@
+:root {
+    --light: rgba(255, 255, 255, 0.939); 
+    --dark: rgba(0, 0, 0, 0.776); 
+    --background: linear-gradient(0.25turn, #3fa697, #ebf8e1, #f69d3c);
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: var(--background);
+    
+}
+
+h1 {
+    max-width: 40%;
+    color: var(--light);
+    text-shadow: 2px 2px 2px black;
+}
+
+ul {
+    list-style-type: none;
+    text-align: end;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+}
+
+a {
+    color: black;
+    font-size: 1.25rem;
+}
+
+h2 {
+    font-size: 1.5rem;  
+    text-shadow: var(--light);
+    max-width: 20%;
+    text-align: left;
+    border-right: 2px solid var(--dark);
+    line-height: 2rem;
+}
+
+.hero {
+    height: 400px;
+    width: 100%;
+    background-image: url(../Images/beach-hero-image.jpeg);
+    background-size: cover;
+    background-position: center;
+}
